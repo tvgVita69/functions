@@ -56,9 +56,30 @@ def increment_number(number):
 - [ ] c.Только в основной программе, вне функции increment_number()
 - [ ] d.В любом месте программы<br>
 Правильный ответ: Только в теле функции increment_number()
+#### Что выведет функция greeting?
+<pre>
+def greeting():
+    return 'Добро пожаловать!'
+    print('Пожалуйста, подождите немного....')
+print(greeting())
+</pre>  
+- [X] a.Добро пожаловать! 
+- [ ] b.None
+- [ ] c.Ошибку
+- [ ] d.Добро пожаловать!
+      Пожалуйста, подождите немного....<br>
+Правильный ответ: Добро пожаловать!
 
-
-
+#### Что произойдёт, если вызвать функцию subtraction?
+def subtraction(minuend, subtrahend):
+    result = minuend - subtrahend
+    print(result)
+subtraction(minuend=5,6)
+- [ ] a.Код выведет 0
+- [ ] b.Код выведет 1
+- [X] c.Произойдёт ошибка #SyntaxError: positional argument follows keyword argument
+- [ ] d.Код выведет-1<br>
+Правильный ответ: Произойдёт ошибка
 
 
 
