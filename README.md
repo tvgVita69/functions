@@ -71,13 +71,15 @@ print(greeting())
 Правильный ответ: Добро пожаловать!
 
 #### Что произойдёт, если вызвать функцию subtraction?
+<pre>
 def subtraction(minuend, subtrahend):
     result = minuend - subtrahend
     print(result)
+</pre>
 subtraction(minuend=5,6)
 - [ ] a.Код выведет 0
 - [ ] b.Код выведет 1
-- [X] c.Произойдёт ошибка #SyntaxError: positional argument follows keyword argument
+- [X] c.Произойдёт ошибка      #SyntaxError: positional argument follows keyword argument
 - [ ] d.Код выведет-1<br>
 Правильный ответ: Произойдёт ошибка
 
