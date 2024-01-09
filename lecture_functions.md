@@ -139,7 +139,7 @@ add_element_to b(5)
 
 ![image](https://github.com/tvgVita69/python_functions/assets/98489171/d82b6f43-c1f4-4502-974c-5ac947a21f60)
 
-![image](https://github.com/tvgVita69/python_functions/assets/98489171/70759b19-46db-44e1-89c2-78e99b84635f)
+
 
 # Переменное число аргументов Именованные аргументы.
 <pre>
