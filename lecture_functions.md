@@ -40,12 +40,11 @@ spring_force (10 , 2, 0.1, 0.05)
 
 # Работа функции.
 <pre>
-def functionName() 	* <—
-functionName();
-> * * * * * * • •
- </pre> 
+def functionName() 	
+* <—> * * * * * * • •
+functionName(); 
+</pre> 
 # Типы функций.
-
 Встроенные функции - функции, встроенные в Python.<br>
 П ол ьзовател ьские функции - функции, определяемые самими пользователями.<br>
 ![image](https://github.com/tvgVita69/python_functions/assets/98489171/a674486c-c524-41ff-a287-b895fb515a6f)
