@@ -129,16 +129,30 @@ return O.5*vO**2/g
 def add_element_to_b (а , Ь = []) : b.append(а) return Ь
 При первом вызове функции: b - пустой список
 add_element to b (4)
-[4]’	‘ ’
+[4]'	' '
 При втором вызове функции: b “вспомнит” последнее значение
 add_element_to b(5)
-[4,”5]
+[4,"5]
 </pre>
 
+# Переменное число аргументов.
 
+![image](https://github.com/tvgVita69/python_functions/assets/98489171/d82b6f43-c1f4-4502-974c-5ac947a21f60)
 
+![image](https://github.com/tvgVita69/python_functions/assets/98489171/70759b19-46db-44e1-89c2-78e99b84635f)
 
-
+# Переменное число аргументов Именованные аргументы.
+<pre>
+zeros (** kwargs):
+if kwargs. get( 'diml ') :
+res = [0]' kwargs [ 'diml ' ]
+if kwargs. get( 'dim2 ') :
+res = [ res ]* kwargs [ dim2 ' ] return res
+Переданные аргументы будут собраны в словарь kwargs
+» zeros (diml = 3)
+[О, 0, 0] » zeros (diml=2, dim2 = 2)
+[[0, 0], [0, 0]] 
+</pre>
 
 
 
