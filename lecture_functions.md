@@ -147,8 +147,8 @@ def zeros(*args):
 </pre>
 Переданные аргументы будут собраны в кортеж args
 <br><pre>
-» zeros(3,3)
-Аргументы:(3,3)
+zeros(3,3)
+» Аргументы:(3,3)
 [[0, 0, 0],
 [0, 0, 0],
 [0, 0, 0]]
@@ -162,8 +162,8 @@ def zeros(n1, *args):
     if len(args) == 1:
         return [[0]*n1]*args[0]
 
-» zeros()
-TypeError: zeros() missing 1 required positional argument: 'n1'
+zeros()
+» TypeError: zeros() missing 1 required positional argument: 'n1'
 def zeros(n, *args):
     if len(args) == 0:
         return [0] * n
@@ -183,10 +183,10 @@ def zeros(**kwargs):
         return res
 Переданные аргументы будут собраны в словарь kwargs
 print(zeros(diml=3))  
-» zeros (diml = 3)
-None
-» print(zeros(diml=2, dim2=2))
-[[0, 0], [0, 0]] 
+zeros (diml = 3)
+» None
+print(zeros(diml=2, dim2=2))
+» [[0, 0], [0, 0]] 
 </pre>
 
 # Локальные переменные.
@@ -197,7 +197,7 @@ def fun(х):
     а = 2 #Локальная переменная
     return х + а
 print(fun (3))
->> 5
+» 5
 </pre>
 
 # Области видимости переменных.
@@ -208,8 +208,8 @@ def my_func():
 x = 20
 my_func()
 print("Значение внутри функции:", x)
-Значение внутри функции: 10
-Значение внутри функции: 20  
+» Значение внутри функции: 10
+» Значение внутри функции: 20  
 </pre>
 
 # Инструкция global.
@@ -220,7 +220,7 @@ def fun(х):
     а = 1	#ОШИБКА!
     return Ь
 </pre>  
-Local variable ’a’ referenced before assignment.<br> 
+» Local variable ’a’ referenced before assignment.<br> 
 Изменить глобальную переменную можно, объявив её глобальной:
 <pre>
 а = 1 #Глобальная переменная модуля
@@ -230,7 +230,7 @@ def fun(x):
     b = 10 + а
     return b
 print(fun(5)) 
->> 13
+» 13
 </pre>
 
 # Инструкция nonlocal.
