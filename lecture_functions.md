@@ -31,15 +31,18 @@ greet(a)
 
 # Синтаксис объявления функций.
 <pre>
-def spring_force (fO , fk , h, x) : i f 0 < x < h: res = 0 else :
-res = fO-(fO-fk)‘x/h
-return res
+def spring_force (fO , fk , h, x): 
+  if 0 < x < h: 
+    res = 0
+  else :
+    res = fO-(fO-fk)*x/h
+  return res
 </pre>                                            
-Ключевое слово def, имя функции, список аргументов.<br>
-Результат возвращается при помощи оператора return.<br>
-Если оператор return отсутствует, то функция возвращает None.<br>
+- Ключевое слово def, имя функции, список аргументов.<br>
+- Результат возвращается при помощи оператора return.<br>
+- Если оператор return отсутствует, то функция возвращает None.<br>
 <pre>
-spring_force (10 , 2, 0.1, 0.05)
+spring_force(10, 2, 0.1, 0.05)
 Результат: 6
 </pre>
 
