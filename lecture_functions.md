@@ -60,6 +60,19 @@ functionName();
 - После объявления функции документация доступна через специальный атрибут »> foo.	doc	'I return 42.'
 - В интерпретаторе удобней пользоваться встроенной функцией »> help(foo) #или foo? в IPython.<br>
                                                                                                 
+# Строки документации Python.
+<pre>
+def avg_number(х? y):
+- Вычислите и распечатайте среднее двух чисел.
+- Создано 29.12.2012. python-docstring-exaraple.py
+'"""
+print("Average of ",х/' and ",y, " is ",(х+у)/2)
+</pre>  
+Параметры отладки оболочки редактирования файла Справка Windows.<br>
+Python 3.2.3 (default, Apr 11 2012, 07:15:24) [MSC v.1500 32 bit (Intel)] on Win32 Type "copyright", "credits" or "licensed" for more information. »> ================================ RESTART	=»> print (avg_nuiuher .	doc)<br>
+Calculate and Print Average of two Numbers.<br>
+Created on 29/12/2012. python-docstring-exaraple.py<br>
+
 
 
 
