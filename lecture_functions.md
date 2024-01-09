@@ -73,7 +73,42 @@ Python 3.2.3 (default, Apr 11 2012, 07:15:24) [MSC v.1500 32 bit (Intel)] on Win
 Calculate and Print Average of two Numbers.<br>
 Created on 29/12/2012. python-docstring-exaraple.py<br>
 
+# Аргументы функций.
+Объявление функции:
+<pre>
+def spring_force (fO , fk, h, x) :
+) ■ • • •  
+Вызов функции:
+spring_force (10.0 , 2.0, 0.1, 0.05):
+- Аргументы функции spring_force должны передаваться в том порядке, в котором это задумано автором функции
+- При вызове функции необходимо помнить смысловой порядок аргументов 
+</pre>
 
+# Аргументы функций передаются по ссылке.
+<pre>
+def changeme( mylist ):
+"This changes a passed list into this function mylist.append([lJ2J3J4])j
+print ("Values inside the function: ", mylist) return
+# Вызывем функцию changeme
+mylist = [10,20,30];
+changeme( mylist );
+print( "Values outside the function:	mylist)|
+Values inside the function: [10, 20, 36, [1, 2, 3, 4]]
+Values outside the function: [10, 20, 30, [1, 2, 3, 4]] 
+</pre>  
+
+# Именованные аргументы функций.
+Объявление функции:
+<pre>
+1	def spring_force (fO , fk , h, x):
+2	...
+</pre>  
+Возможна передача функции именованных аргументов
+<pre>
+i f = spring_force (h = 0.3 ,f0 = 10,fk=2,х = 0.15)
+</pre>  
+® Порядок аргументов может быть произвольным<br>
+• Такой способ вызова позволяет исключить ошибки<br> 
 
 
 
